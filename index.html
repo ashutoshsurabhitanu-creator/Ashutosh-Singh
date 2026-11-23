@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Ashutosh Singh, web developer and designer.">
+  <title>Ashutosh Singh | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Go to home">AS<span>.</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Available for opportunities</p>
+          <h1>Hi, I'm <strong>Ashutosh Singh</strong></h1>
+          <h2>I build <span class="typing" aria-label="Web applications"></span></h2>
+          <p class="hero-text">A passionate developer focused on creating thoughtful digital experiences that are beautiful, accessible, and easy to use.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View my work <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="#contact">Get in touch</a>
+          </div>
+          <div class="social-row" aria-label="Social links">
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+            <a href="mailto:hello@example.com" aria-label="Email">@</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Profile portrait">
+          <div class="portrait-frame">
+            <div class="portrait-accent"></div>
+            <img src="profile.png" alt="Ashutosh Singh">
+          </div>
+          <div class="floating-card card-top"><span>01</span><p>Years of<br><strong>Experience</strong></p></div>
+          <div class="floating-card card-bottom"><span>3</span><p>Projects<br><strong>Completed</strong></p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p>About me</p>
+          <h2>A little about <span>who I am</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>I am a creative developer who enjoys turning ideas into functional, polished products. I care about clean code, purposeful design, and building experiences that help people accomplish their goals.</p>
+            <p>When I am not coding, you can find me exploring new technologies, learning about design, or working on a new personal project.</p>
+            <a class="text-link" href="#contact">Let's work together <span>→</span></a>
+          </div>
+          <div class="journey reveal">
+            <div class="education">
+              <p class="label">Education</p>
+              <article class="timeline-item">
+                <div class="timeline-dot"></div>
+                <p class="timeline-date">2022 — 2028</p>
+                <h3>B.Tech — CSE (DS + AI)</h3>
+                <p>Currently pursuing · Shri Ramswaroop Memorial University</p>
+              </article>
+              <article class="timeline-item">
+                <div class="timeline-dot"></div>
+                <p class="timeline-date">2020 — 2022</p>
+                <h3>Higher Secondary Education</h3>
+                <p>Science Stream · City Montessori School · ICSE Board · 89.78%</p>
+              </article>
+            </div>
+            <div class="experience">
+              <p class="label">Experience</p>
+              <article class="experience-card">
+                <span class="experience-icon">↗</span>
+                <div>
+                  <p class="timeline-date">Part-Time · Current</p>
+                  <h3>Lucknow City Lead</h3>
+                  <p class="experience-org">Tec Spartan <span>×</span> 91Mobiles</p>
+                  <ul class="achievement-list">
+                    <li>Leading Lucknow operations and college outreach</li>
+                    <li>Coordinated events across colleges in the city</li>
+                    <li>Conducted an event at IIT Kanpur</li>
+                  </ul>
+                </div>
+              </article>
+              <article class="achievement-card">
+                <span class="achievement-badge">2023</span>
+                <div>
+                  <p class="timeline-date">National Hackathon</p>
+                  <h3>Smart India Hackathon</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p>My skills</p>
+          <h2>Tools &amp; <span>technologies</span></h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-icon html">&lt;/&gt;</span><h3>HTML &amp; CSS</h3><p>Semantic, responsive layouts</p><div class="progress"><span style="--level:90%"></span></div></article>
+          <article class="skill-card reveal"><span class="skill-icon js">JS</span><h3>JavaScript</h3><p>Dynamic web interactions</p><div class="progress"><span style="--level:82%"></span></div></article>
+          <article class="skill-card reveal"><span class="skill-icon react">⚛</span><h3>React</h3><p>Modern component systems</p><div class="progress"><span style="--level:78%"></span></div></article>
+          <article class="skill-card reveal"><span class="skill-icon git">⌘</span><h3>Git &amp; GitHub</h3><p>Version control and teamwork</p><div class="progress"><span style="--level:85%"></span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p>Featured work</p>
+          <h2>Selected <span>projects</span></h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-preview preview-one"><div class="mock-window"><div class="mock-dots"></div><div class="mock-body"><span></span><span></span><span></span></div></div></div>
+            <div class="project-info"><p>Web Application</p><h3>Task Management Dashboard</h3><p>A clean productivity tool for organizing tasks, tracking progress, and collaborating with a team.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="#" aria-label="View Task Management Dashboard project">View project →</a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-preview preview-two"><div class="mock-phone"><div class="phone-screen"><span></span><span></span><span></span></div></div></div>
+            <div class="project-info"><p>Landing Page</p><h3>Modern Travel Website</h3><p>A responsive travel experience with immersive destinations and an intuitive booking interface.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="#" aria-label="View Modern Travel Website project">View project →</a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-preview preview-three"><div class="mock-chart"><span></span><span></span><span></span><span></span><span></span></div></div>
+            <div class="project-info"><p>Portfolio</p><h3>Creative Agency Portfolio</h3><p>A bold portfolio concept that combines strong typography, motion, and an engaging project gallery.</p><div class="tags"><span>React</span><span>CSS</span><span>API</span></div><a href="#" aria-label="View Creative Agency Portfolio project">View project →</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="section-kicker">Get in touch</p>
+          <h2>Have a project in mind?<br><span>Let's talk.</span></h2>
+          <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+          <a class="email-link" href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-row">
+            <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+            <label>Email<input type="email" name="email" placeholder="Your email" required></label>
+          </div>
+          <label>Subject<input type="text" name="subject" placeholder="How can I help?" required></label>
+          <label>Message<textarea name="message" rows="5" placeholder="Tell me about your project..." required></textarea></label>
+          <button class="button button-primary" type="submit">Send message <span aria-hidden="true">→</span></button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">AS<span>.</span></a>
+      <p>© <span id="year"></span> ASHUTOSH SINGH . All rights reserved.</p>
+      <a class="back-to-top" href="#home" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
